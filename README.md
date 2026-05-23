@@ -33,20 +33,42 @@ This project was created as the final project for **MDIA 2223 – Virtual Realit
 
 ## Installation
 
-1. Download the `.zip` file from the repository's `main` branch
+**1. Clone the repository**
+```
+$ git clone https://github.com/ngongochan/VR-Coffee-Shop.git
+```
 
-2. Extract the `.zip` file
+**2. Enter the project folder**
+```
+$ cd VR-Coffee-Shop
+```
 
-3. Open **Unity Hub**
+**3. Install Git LFS (only needed once per machine)**
+```
+$ git lfs install
+```
 
-4. Click `Add` → `Add project from disk`
+**4. Pull LFS files**
+```
+$ git lfs pull
+```
 
-5. Select the extracted project folder
+**5. Open Unity Hub**
 
-Example: `.\Downloads\VR-Coffee-Shop-main\VR-Coffee-Shop-main`
+* Click `Add`
+* Select `Add project from disk`
+* Choose the cloned project folder
 
-6. Open the project folder through Unity Hub
+Example path:
+`.\Downloads\VR-Coffee-Shop`
+
+**6. Open the project in Unity**
+
+In Unity Editor, open your scene:
+```
+Assets/MyScene.unity
+```
 
 ## Future Improvements
 
-* More interactive objects
+* More interactive objects to come!!
